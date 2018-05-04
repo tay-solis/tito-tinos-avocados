@@ -1,0 +1,146 @@
+/*
+Dark: #35362D
+Green: #8BA355
+light green: #E4EE69
+Orange: #D9541F
+Beige: #D6D1BF
+*/
+
+html{
+  width: 100%;
+  background: url(https://thumbs.dreamstime.com/b/seamless-pattern-avocado-vector-illustration-65959813.jpg) top left repeat;
+  background-position: top left;
+}
+
+body{
+  font-family: 'Pompiere', cursive;
+  font-size: 20px;
+  color: #35362D;
+  margin: 0;
+}
+
+ul{
+  margin-top: 35px;
+  list-style-type: none;
+}
+
+li{
+    margin-bottom: 15px;
+      font-size: 18px;
+}
+
+a{
+  font-family: 'Freckle Face', cursive;
+  color: #D9541F;
+  text-decoration: none;
+}
+
+.sidebar a:hover{
+  text-decoration: none;
+  color: #F9AC79;
+}
+
+img{
+  display:block;
+  text-align: center;
+}
+
+div{
+  float: left;
+  padding: 20px;
+}
+
+header{
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 5px;
+
+  background-color: #F7F697;
+  -webkit-box-shadow: 0 4px 2px -2px rgba(53, 54, 45, 0.5);
+  -moz-box-shadow: 0 4px 2px -2px rgba(53, 54, 45, 0.5);
+  box-shadow: 0 4px 2px -2px rgba(53, 54, 45, 0.5);
+}
+
+h1{
+  font-family: 'Frijole', cursive;
+  font-size: 50px;
+  color: #8BA355;
+  margin-bottom: 0;
+}
+
+h2{
+  font-family: 'Freckle Face', cursive;
+  color: #D9541F;
+  font-size: 40px;
+  margin: 5px;
+}
+h3{
+  font-family: 'Patrick Hand SC', cursive;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.container{
+  grid-template-columns: 350px auto;
+}
+
+.sidebar{
+  float:left;
+  width: 200px;
+  height: 225px;
+  margin-left: 60px;
+  background-color: #78351E;
+  border: 2px solid #35362D;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  color: #D6D1BF;
+}
+
+.sidebar a{
+  color: #D6D1BF;
+}
+
+.content{
+  grid-column: 2;
+  float: right;
+  width: 750px;
+  margin-right: 120px;
+  background-color: #E4EE69;
+  border: 2px solid #8BA355;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.content img{
+  margin: 0 auto;
+}
+
+.center{
+  text-align: center;
+}
+
+#dancing {
+  animation: dance 4s infinite;
+  -webkit-animation: dance 4s infinite;
+  -moz-animation: dance 4s infinite;
+  position:relative;
+  /* top: 300px;*/
+  left: -250px;
+}
+
+@keyframes dance {
+  from{
+    left: 225px;
+    }
+}
+@-webkit-keyframes dance {
+  from{
+    left: 225px;
+    }
+}
+@-moz-keyframes dance {
+  from{
+    left: 225px;
+    }
+}
