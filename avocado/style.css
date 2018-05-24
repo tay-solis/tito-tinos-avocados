@@ -112,6 +112,10 @@ border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   margin-bottom: 20px;
 }
 
+.center{
+  text-align: center;
+}
+
 .content img{
   margin: 0 auto;
 }

@@ -3,31 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link type="text/css" href="style.css" rel="stylesheet">
+    <link type="text/css" href="restyle.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Frijole|Kirang+Haerang|Patrick+Hand+SC|Pompiere" rel="stylesheet">
   </head>
 
   <body>
-    <header>
-      <h1>Tito Tino's Avocados</h1>
-      <h3>Avoca-"do" Yourself a Favor and Try Our Avocados</h3>
-    </header>
-
-
-      <div class="sidebar">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="produce.html">All About Avocados</a></li>
-          <li><a href="toast.html">Tino's Toast</a></li>
-          <li><a href="about.html">About Tito Tino's</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+      <p class="navTitle">
+        Tito Tino's Avocados
+      </p>
+      <div class="right">
+        <div class="hamburger">
+          <div class="hamLine"></div>
+          <div class="hamLine"></div>
+          <div class="hamLine"></div>
+        </div>
+        <div class="navCollapse">
+          <a href="home.html">Home</a>
+          <a href="produce.html">All About Avocados</a>
+          <a href="toast.html">Tino's Toast</a>
+          <a href="about.html">About Tito Tino's</a>
+          <a href="contact.html">Contact</a>
+        </div>
       </div>
+    </nav>
 
     <div class="content">
       <h1 class="center">No.</h1>
     </div>
-
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 
 </html>
